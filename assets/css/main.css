@@ -1122,7 +1122,7 @@ i.header__search-select-option-icon {
     display: block;
 }
 
-.selection--checked .item__filter-input-selection {
+.selection--checked.item__filter-input-selection {
     color: var(--primary-color);
 }
 /* Paginate */
