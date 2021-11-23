@@ -1122,9 +1122,10 @@ i.header__search-select-option-icon {
     display: block;
 }
 
-.selection--checked.item__filter-input-selection {
+.item__filter-input-selection.selection--checked {
     color: var(--primary-color);
 }
+
 /* Paginate */
 .item__filter-paginate {
     height: 36px;
