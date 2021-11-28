@@ -45,12 +45,25 @@
     .mobile__category {
         display: block;
     }
+
+    .category__mobile-display {
+        display: flex;
+    }
 }
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     .hide-on-table {
         display: none;
+    }
+
+    .category__mobile-display {
+        justify-content: space-around;
+    }
+
+    .category__mobile-info {
+        width: unset;
+        display: inline-flex;
     }
 }
 
@@ -95,7 +108,7 @@
         box-shadow: 0 1px 2px rgb(0 0 0 / 5%);
     }
 
-    .header__mobile-search-icon {
+    .header__mobile-search {
         display: inline-block;
     }
 
@@ -133,5 +146,16 @@
 
     .footer__download-app-img {
         width: 50%;
+    }
+/* 
+    .category__mobile-info {
+        width: 50%;
+    } */
+
+    .category__mobile-link {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
     }
 }
